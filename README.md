@@ -1,0 +1,118 @@
+# Unlocking Potential for Elite Training Programs - Tuwaiq Voice Assistant
+
+## 🔄 Overview
+
+This repository is a complete solution for the Kaggle competition ["Measuring Student Persistence and Completion Rate"](https://www.kaggle.com/competitions/measuring-student-persistence-and-completion-rate), developed as part of the Tuwaiq Academy bootcamp.
+
+We took the original machine learning problem of predicting student persistence and elevated it by wrapping it in a real-time, interactive voice assistant using Python, Whisper, and hardware integration. This transformed a classic ML task into an AI-powered experience.
+
+---
+
+## 📚 Contents
+
+* `Tuwaiq_Academy_Best_Students_predict.ipynb` → Jupyter Notebook with full data analysis, preprocessing, model building, and submission code.
+* `train.csv` → Training dataset.
+* `tuwaiq_voice_assistant.py` → Python script that integrates the trained model into a real-time voice assistant.
+* `README.md` → Project description and implementation documentation (you're reading it).
+* `requirements.txt` → All needed libraries.
+
+---
+
+## ✅ Project Objectives
+
+1. **Participate in Kaggle Competition**:
+
+   * Analyze and model persistence data to predict completion rate.
+
+2. **Enhance Model with Voice Assistant**:
+
+   * Transform model into a smart assistant for academic advisors.
+
+3. **Hardware and Voice Interaction**:
+
+   * Implement speech-to-text (STT), text-to-speech (TTS), and microphone handling to create an interactive bot.
+
+---
+
+## 🔹 Competition Breakdown
+
+### 1. Registration
+
+* Team: **Vision Tuwaiq 2030**
+
+### 2. Data Preprocessing
+
+* Categorical encoding using `get_dummies`
+* Missing values dropped for `Y` and `University Degree Score`
+
+### 3. Model Building
+
+* Used `RandomForestClassifier`
+* Features: `Age`, `Gender`, `University Degree Score`
+* Target: `Y` (persistence indicator)
+
+### 4. Model Improvement
+
+* Feature engineering (e.g., binary gender, dummy encoding for education/region)
+* Fine-tuned with GridSearchCV
+* Accuracy > 85%
+
+---
+
+## 🎮 Real-Time Voice Assistant
+
+We built a real-time voice bot that:
+
+* Greets the user
+* Understands voice commands using **OpenAI Whisper**
+* Answers questions like:
+
+  * Who is the best student?
+  * What is your name?
+  * Tell me the top performer?
+* Speaks the results back using `pyttsx3`
+
+### 🔧 Hardware Implementation
+
+* **Microphone**: Used for capturing audio via `SpeechRecognition`
+* **Speakers**: Used for responding with synthesized voice
+* **Laptop (Windows)**: Required for `sapi5` voice driver (for pyttsx3 TTS)
+
+---
+
+## 🎉 Python + AI Integration
+
+* `whisper` for STT: Real-time transcription
+* `pyttsx3` for TTS: Speak results clearly
+* `speech_recognition` + `Microphone` class
+* `RandomForestClassifier` from `sklearn`
+* Error handling, re-prompting, and smart confirmation logic
+
+---
+
+## 📅 What We Learned
+
+* Preprocessing large datasets for ML competitions
+* Building robust, deployable models
+* Integrating AI models into real-time systems
+* Voice interface design (asking questions, confirming identity, rephrasing)
+* Hardware and Python syncing (audio IO)
+
+---
+
+## 💼 How to Run
+
+```bash
+pip install -r requirements.txt
+python tuwaiq_voice_assistant.py
+```
+
+> Make sure you are using Python 3.10+ and running on Windows (for TTS support).
+
+---
+
+## 🌟 Credits
+
+* Built by Team Tuwaiq as part of the Elite Training Bootcamp Challenge
+* Based on Kaggle's "Measuring Student Persistence" competition
+* Powered by OpenAI Whisper, scikit-learn, and Python
