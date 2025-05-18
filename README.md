@@ -73,6 +73,12 @@ We built a real-time voice bot that:
 * Speaks the results back using `pyttsx3`
 
 ### 🔧 Hardware Implementation
+![ChatGPT Image 16 مايو 2025، 02_11_11 ص](https://github.com/user-attachments/assets/6a5f8d67-c9ac-4374-82ec-83f3f069af69)
+
+
+
+https://github.com/user-attachments/assets/2f07dbc0-aa26-4c9c-905b-62a09075f662
+
 
 * **Microphone**: Used for capturing audio via `SpeechRecognition`
 * **Speakers**: Used for responding with synthesized voice
