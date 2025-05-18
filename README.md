@@ -113,6 +113,5 @@ python tuwaiq_voice_assistant.py
 
 ## 🌟 Credits
 
-* Built by Team Tuwaiq as part of the Elite Training Bootcamp Challenge
 * Based on Kaggle's "Measuring Student Persistence" competition
 * Powered by OpenAI Whisper, scikit-learn, and Python
