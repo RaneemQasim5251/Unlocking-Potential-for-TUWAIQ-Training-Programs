@@ -45,6 +45,12 @@ https://github.com/user-attachments/assets/2f07dbc0-aa26-4c9c-905b-62a09075f662
 
 * Categorical encoding using `get_dummies`
 * Missing values dropped for `Y` and `University Degree Score`
+![target_distribution](https://github.com/user-attachments/assets/b49277d0-31e4-4ba8-8370-f7a4302d252a)
+![presentation_method_vs_persistence](https://github.com/user-attachments/assets/6489df5b-7807-4b7a-b161-acf6f2fd8484)
+![gender_vs_persistence](https://github.com/user-attachments/assets/6a2cc705-1605-4d30-aae6-0e902f49c0c9)
+![education_vs_persistence](https://github.com/user-attachments/assets/407097b2-b69d-4068-949b-832fd570d3bc)
+![age_distribution](https://github.com/user-attachments/assets/eaaf0bdb-5b26-4ee1-87d7-271acc6d22f1)
+
 
 ### 3. Model Building
 
