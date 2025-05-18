@@ -7,6 +7,7 @@ This repository is a complete solution for the Kaggle competition ["Measuring St
 We took the original machine learning problem of predicting student persistence and elevated it by wrapping it in a real-time, interactive voice assistant using Python, Whisper, and hardware integration. This transformed a classic ML task into an AI-powered experience.
 
 ---
+https://github.com/user-attachments/assets/2f07dbc0-aa26-4c9c-905b-62a09075f662
 
 ## 📚 Contents
 
@@ -74,10 +75,6 @@ We built a real-time voice bot that:
 
 ### 🔧 Hardware Implementation
 ![ChatGPT Image 16 مايو 2025، 02_11_11 ص](https://github.com/user-attachments/assets/6a5f8d67-c9ac-4374-82ec-83f3f069af69)
-
-
-
-https://github.com/user-attachments/assets/2f07dbc0-aa26-4c9c-905b-62a09075f662
 
 
 * **Microphone**: Used for capturing audio via `SpeechRecognition`
