@@ -45,11 +45,21 @@ https://github.com/user-attachments/assets/2f07dbc0-aa26-4c9c-905b-62a09075f662
 
 * Categorical encoding using `get_dummies`
 * Missing values dropped for `Y` and `University Degree Score`
-![target_distribution](https://github.com/user-attachments/assets/b49277d0-31e4-4ba8-8370-f7a4302d252a)
-![presentation_method_vs_persistence](https://github.com/user-attachments/assets/6489df5b-7807-4b7a-b161-acf6f2fd8484)
-![gender_vs_persistence](https://github.com/user-attachments/assets/6a2cc705-1605-4d30-aae6-0e902f49c0c9)
-![education_vs_persistence](https://github.com/user-attachments/assets/407097b2-b69d-4068-949b-832fd570d3bc)
-![age_distribution](https://github.com/user-attachments/assets/eaaf0bdb-5b26-4ee1-87d7-271acc6d22f1)
+![target_distribution](https://github.com/user-attachments/assets/eddb1c98-c469-4baa-802b-3a068bf87d8f)
+![presentation_method_vs_persistence](https://github.com/user-attachments/assets/20d509e3-3f9a-49c4-9e6f-6e098ea46386)
+![gender_vs_persistence](https://github.com/user-attachments/assets/7f5f58fc-aa69-46e7-9b0b-6e696f256862)
+![education_vs_persistence](https://github.com/user-attachments/assets/518d076e-0015-4e6c-9792-4a3333d85b06)
+![age_distribution](https://github.com/user-attachments/assets/4015ac7e-ae60-4b3d-b6e2-077bd136b99c)
+![09_خريطة_الارتباط](https://github.com/user-attachments/assets/079612cb-b208-4311-a614-99fc95def833)
+![08_المنطقة_والاستمرارية](https://github.com/user-attachments/assets/591a22ce-bb61-4f3d-b76a-07ca1b8b1c75)
+![07_مدة_البرنامج](https://github.com/user-attachments/assets/95144ed8-cbd9-46cf-9b7c-ff0737a9dc7e)
+![06_المهارة_والاستمرارية](https://github.com/user-attachments/assets/76523a75-a8af-4d90-a9a7-e7d8a7f95097)
+![05_طريقة_التقديم_والاستمرارية](https://github.com/user-attachments/assets/96613bdd-0636-4940-9e85-d72677e10b89)
+![04_التعليم_والاستمرارية](https://github.com/user-attachments/assets/4520ce1e-3398-4322-83b5-d6cda2903aad)
+![03_الجنس_والاستمرارية](https://github.com/user-attachments/assets/f10aa803-3024-4a34-852f-a7fbc7edb917)
+![02_توزيع_الأعمار](https://github.com/user-attachments/assets/4a553cfa-6ac8-4a5f-b3bb-4c91dea10c61)
+![01_توزيع_الاستمرارية](https://github.com/user-attachments/assets/462ed66b-424f-45f0-b4ed-3f0a741295e5)
+
 
 
 ### 3. Model Building
